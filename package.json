@@ -1,0 +1,32 @@
+{
+  "name": "mocha-webpack-normal-module-replacement-plugin",
+  "version": "1.0.0",
+  "description": "Sample project that demonstrates Mocha configuration when using Webpack's NormalModuleReplacementPlugin",
+  "scripts": {
+    "build": "webpack",
+    "test": "node_modules/.bin/mocha -r babel-register -r ./test/mock.js ./test/main",
+    "test_foo": "REACT_APP_CUSTOMER=foo node_modules/.bin/mocha -r babel-register -r ./test/mock.js ./test/main"
+  },
+  "keywords": [
+    "mocha",
+    "webpack",
+    "NormalModuleReplacementPlugin"
+  ],
+  "author": "Nikita Streletss",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "mocha": "^5.2.0",
+    "mock-require": "^3.0.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
