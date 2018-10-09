@@ -7,6 +7,6 @@ npm i
 ```
 ## Running the tests
 ```
-npm run test /* outputs 'default' */
-npm run test_foo // outputs 'foo'
+npm run test <-- outputs 'default'
+npm run test_foo <-- outputs 'foo'
 ```
