@@ -5,7 +5,7 @@ Sample project to proof an answer to SO question
 ```
 npm i
 ```
-## Running the tests
+### Running the tests
 ```
 npm run test        <-- outputs 'default'
 npm run test_foo    <-- outputs 'foo'
